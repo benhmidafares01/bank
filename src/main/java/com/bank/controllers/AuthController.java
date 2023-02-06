@@ -35,7 +35,6 @@ import com.bank.payload.response.JwtResponse;
 import com.bank.payload.response.MessageResponse;
 import com.bank.security.jwt.JwtUtils;
 
-@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
